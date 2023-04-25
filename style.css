@@ -1,0 +1,98 @@
+/* Home page background image*/
+.homeBackground {
+  background: url("img/ChessHomeBackGround.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+/* Quiz page background image */
+.quizBackground {
+  background: url("img/ChessQuizBackGround.jpeg") no-repeat center fixed;
+  background-size: cover;
+}
+
+/* About page background colour and transparency */
+.aboutBackground {
+  background-color: rgba(3, 43, 173, 0.7);
+}
+
+/* Body visibility and colour */
+.body {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  width: 600px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+/* Navigation bar alignment*/
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  margin: 0px 25px;
+}
+
+/* Navigation bar text hover */
+.nav a:hover {
+  font-style: bold;
+  color: red;
+}
+
+/* Image class borders */
+.img {
+  border: 5px solid;
+  border-color: black;
+}
+
+/* Center image paragraphs */
+.imgCenter {
+  text-align: center;
+}
+
+/* Centered font for titles */
+.center {
+  text-align: center;
+}
+
+/* Quote on home page */
+.homeQuote {
+  text-align: justify;
+}
+
+/* Correct Class */
+.correct {
+  color: green;
+}
+
+/* Mostly Correct clas */
+.lightGreen {
+  color: rgb(84, 207, 84);
+}
+
+/* 50% Class */
+.grey {
+  color: grey;
+}
+
+/* Wrong class? */
+.lightRed {
+  color: rgb(175, 62, 62);
+}
+
+/* Very Wrong class */
+.incorrect {
+  color: red;
+}
+
+/* Link hover changes */
+.link:hover {
+  font-style: italic;
+}
+
+/* Italics */
+.italic {
+  font-style: italic;
+}
